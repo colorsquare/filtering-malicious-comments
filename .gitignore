@@ -1,0 +1,26 @@
+# python
+venv/
+*.pyc
+
+# dataset, and parsed data
+*.txt
+!vader_lexicon.txt
+!special_words.txt
+!intensifier.txt
+!neutralizer.txt
+!youtube_reviews_for_demo.txt
+*.csv
+
+# env
+.vscode
+.idea
+
+# zip, tar
+*.zip
+*.gz
+
+# Others
+.DS_store
+.cache
+*.docx
+*.doc
